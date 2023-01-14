@@ -1,0 +1,13 @@
+Done: Core concept
+
+For 0.2:
+ Art assets for characters (8)
+ Art assets for effects squares (4)
+ Fix slope collision bug and vertical artifact
+ Adjust ledge and jump control settings
+ Background that moves with camera
+
+Later: 
+ Level design
+ Art assets for environment, doors, switches, traps
+ Story
