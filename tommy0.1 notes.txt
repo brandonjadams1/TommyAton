@@ -36,3 +36,7 @@ Nine different robot characters (about 20x20 pixels)
 Animated tile of water (24x24 pixels)
 Animated tile of air rushing in one direction (24x24)
 
+
+https://www.youtube.com/watch?v=g31NTpq9p-o
+Great Youtube tutorial for sprite and tile work
+
