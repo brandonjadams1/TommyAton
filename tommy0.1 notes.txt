@@ -11,3 +11,28 @@ Later:
  Level design
  Art assets for environment, doors, switches, traps
  Story
+
+
+***ART REQUIREMENTS FOR 0.2***
+
+Nine different robot characters (about 20x20 pixels)
+
+1. Player character - repair robot, robust but relatable (larger than R2-D2 or Walle-E but with some inviting quality), has jet pack
+
+2-6. Enemy characters. Draw from any inspiration (real world drones, Star Wars cleaner droid, whatever). Elemental but not simplistic. Should not look friendly.
+
+2. Crawler that follows walls/objects clockwise
+
+3. Crawler that follows walls/objects counter-clockwise
+
+4. Flyer that turns clockwise upon hitting wall/object
+
+5. Flyer that turns counter-clockwise upon hitting wall/object
+
+6. Flyer that bounces 180 off any wall
+
+
+
+Animated tile of water (24x24 pixels)
+Animated tile of air rushing in one direction (24x24)
+
