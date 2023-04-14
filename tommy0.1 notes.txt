@@ -13,25 +13,13 @@ Later:
  Story
 
 
-***ART REQUIREMENTS FOR 0.2***
+***ART REQUIREMENTS FOR 0.2*** (Tom)
 
-Nine different robot characters (about 20x20 pixels)
+Seven different robot characters (about 20x20 pixels)
 
 1. Player character - repair robot, robust but relatable (larger than R2-D2 or Walle-E but with some inviting quality), has jet pack
 
-2-6. Enemy characters. Draw from any inspiration (real world drones, Star Wars cleaner droid, whatever). Elemental but not simplistic. Should not look friendly.
-
-2. Crawler that follows walls/objects clockwise
-
-3. Crawler that follows walls/objects counter-clockwise
-
-4. Flyer that turns clockwise upon hitting wall/object
-
-5. Flyer that turns counter-clockwise upon hitting wall/object
-
-6. Flyer that bounces 180 off any wall
-
-
+2-6. Enemy characters. Draw from any inspiration (real world drones, Star Wars cleaner droid, whatever). Elemental. Should not look friendly
 
 Animated tile of water (24x24 pixels)
 Animated tile of air rushing in one direction (24x24)
@@ -40,3 +28,14 @@ Animated tile of air rushing in one direction (24x24)
 https://www.youtube.com/watch?v=g31NTpq9p-o
 Great Youtube tutorial for sprite and tile work
 
+
+
+***PROGRAMMING REQUIREMENTS FOR 0.2*** (Nathan)
+
+Need creatures to:
+
+1. Follow walls/objects clockwise or counterclockwise
+2. Turn clockwise/counterclockwise upon hitting a wall or object
+3. Bounce 180 off any wall
+
+(you can use placeholder images for your creatures early on)
