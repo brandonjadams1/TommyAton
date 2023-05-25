@@ -5,8 +5,13 @@ Enemy moves in a direction horizontally or vertically. Upon collision it should 
 move in the opposite direction.
 
 Added Chaser enemy:
-Enemy chases the player nonstop. Is intended to be spawned by the "Chaser Spawner" that
-continually produces the Chaser enemy.
+Enemy chases the player nonstop by flying directly at the player. 
+Is intended to be spawned by the "Chaser Spawner" and not placed in the map manually.
+
+Added Chaser Spawner:
+As long as it is active (currently set to always be active when on the map) the spawner will spawn
+"Chaser" enemies in a constant interval. Currently no logic is in place for if the player collides
+with the spawner itself.
 
 Added Damage Logic:
 If the player takes any sort of damage, a "game over" UI will load, forcing the player to either
