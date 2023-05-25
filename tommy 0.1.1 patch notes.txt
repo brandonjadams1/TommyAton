@@ -1,0 +1,44 @@
+0.1.1 Patch Notes
+
+Added Bounce180 enemy:
+Enemy moves in a direction horizontally or vertically. Upon collision it should reverse and
+move in the opposite direction.
+
+Added Chaser enemy:
+Enemy chases the player nonstop. Is intended to be spawned by the "Chaser Spawner" that
+continually produces the Chaser enemy.
+
+Added Damage Logic:
+If the player takes any sort of damage, a "game over" UI will load, forcing the player to either
+restart the level or exit the game.
+Player takes damage currently only by coming into contact with the "Chaser" or "bounce180" enemies
+
+Added Game Over UI:
+This UI consists of two buttons, Restart and Quit. Restart calls a function that restarts the level
+completely, the same as if the level is being loaded for the first time. So all objects and game states
+should be as if the level has been started for the first time.
+The Quit button exits out of the level completely.
+
+Added Level Cleared UI:
+This UI consists of two buttons, Next Level and Quit
+Currently the "Next Level" button restarts the current level, no "Next Level" functionality has been
+added.
+The Quit button exits out of the level completely.
+
+Added "Chip" (will be battery in later builds):
+This object is collected by the player and stored in a variable to be referenced by the "Gate".
+The object should merely increment the variable by 1, and then delete itself when the player touches
+it. 
+
+Added Gate:
+When the player collides with this object, it should call the "Level Cleared UI" if the requirements
+are met (if any).
+Note: I am currently planning to have this object automatically set the required number of
+chips/batteries to the number of chips/batteries placed in the level for ease of use. So if there are
+4 chips/batteries in the level, all will need to be collected. If there are 0, then the gate will
+activate immediately once the player reaches it.
+
+Additional Change:
+Adjusted Player Character to have a short acceleration time in movement to make movement look/feel
+more natural.
+
